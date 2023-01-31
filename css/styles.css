@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(140, 111, 219);
+  font-family: Arial, sans-serif;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+}
+
+strong {
+  position: absolute;
+  margin: auto;
+  font-size: 200px;
+  opacity: 0.2;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+#styling {
+  margin-top: -70px;
+  font-size: 60px;
+}
+
+h2,
+p,
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cards_container {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.cards_container .card:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  transition: all 0.5s linear;
+}
+.cards_container .card {
+  height: 400px;
+  width: 300px;
+  border-radius: 18px;
+}
+.cards_container .card_blue {
+  background: linear-gradient(125deg, rgb(95, 49, 221) 0%, rgb(42, 106, 221) 20%, rgb(58, 116, 201) 44%, rgb(0, 142, 255) 65%, rgb(14, 174, 215) 83%);
+}
+.cards_container .card_purple {
+  background: linear-gradient(125deg, rgb(232, 174, 236) 0%, rgb(218, 117, 184) 20%, rgb(168, 7, 131) 44%, rgb(214, 95, 196) 65%, rgb(178, 45, 228) 83%);
+}
+.cards_container .card_orange {
+  background: linear-gradient(125deg, rgb(217, 94, 43) 0%, rgb(191, 117, 34) 20%, rgb(193, 127, 43) 44%, rgb(194, 139, 48) 65%, rgb(221, 177, 38) 83%);
+}
+.cards_container button {
+  margin-left: 30px;
+  height: 40px;
+  width: 80%;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  color: gray;
+  transition: all 1s linear;
+}
+.cards_container button:hover {
+  transform: translatey(50px);
+}/*# sourceMappingURL=styles.css.map */
